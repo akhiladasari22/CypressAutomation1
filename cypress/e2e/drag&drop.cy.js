@@ -15,11 +15,11 @@ describe('Demo', () => {
     });
     it('Drag and drop1', () => {
 
-        cy.get('[id="mongo"]').trigger('dragstart', {
+        cy.get('[id="mongo"]').trigger('dragstart', {// darg start is used to strt the drag
 
         });
         //cy.get(".col-xs-4 > #droparea").trigger('drop', {
-        cy.get('[id="droparea"]').trigger("drop").trigger("dragend")
+        cy.get('[id="droparea"]').trigger("drop").trigger("dragend")// drag end for droparea
         //});
     })
         it('Drag and drop2', () => {
