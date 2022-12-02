@@ -7,7 +7,7 @@ describe('Demo', () => {
          cy.visit('https://demo.automationtesting.in/Register.html')// visit URL
        })
        it('Registration form',()=>{
-        cy.get('[placeholder="First Name"]').type('Akhi').should('have.value','Akhi')//entering first name
+        cy.get('[placeholder="First Name"]').type('Akhila').should('have.value','Akhi')//entering first name
         cy.get('[placeholder="Last Name"]').type('Dasari').should('have.value','Dasari')//last name entering
         cy.get('[ng-model="Adress"]').type('huzurabad')//.should('have.value','huzurabad')// enetering address
         cy.get('[ng-model="EmailAdress"]').type('akhi@gmail.com').should('have.value','akhi@gmail.com')//enetring email id
