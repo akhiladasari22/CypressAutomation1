@@ -3,7 +3,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
 describe('Demo', () => {
-  it('site', () => {
+  it('site URL', () => {
     cy.visit('https://demo.automationtesting.in/Alerts.html')// visit URL
   })
   it('Alertok', () => {
