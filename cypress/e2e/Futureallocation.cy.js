@@ -2,7 +2,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
   describe('Demo', () => {
-    it('site', () => {
+    it('site URL ', () => {
       cy.visit('http://192.168.11.50:3026/')
       cy.get('[class*="mat-form-field-wrapper"]').type('kalyan.penumutchu@senecaglobal.com')
       cy.contains("Log in").click()

@@ -2,7 +2,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
   describe('Demo', () => {
-    it('site', () => {
+    it('site URL ', () => {
       cy.visit('https://book.spicejet.com/')
     })
     it('click on signup link test',()=>{

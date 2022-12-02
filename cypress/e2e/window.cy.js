@@ -1,7 +1,7 @@
 Cypress.on('uncaught:exception', (err, runnable) => {
   return false;
 });
-describe('window', () => {
+describe('window handle', () => {
   it('passes', () => {
     cy.visit('https://demo.automationtesting.in/Windows.html')
   })

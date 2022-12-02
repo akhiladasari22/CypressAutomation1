@@ -2,7 +2,7 @@ describe('empty spec', () => {
     it('passes', () => {
       cy.visit('https://demoqa.com/automation-practice-form')// visit URL
     })
-     it('form', () => {
+     it('Registration form', () => {
       cy.get('#firstName').type('Akhi').should('have.value','Akhi')  // enetring name
  cy.get('#lastName').type('Dasari').should('have.value','Dasari')// entering last name
  cy.get('#userEmail').type('Akhi@gmail.com').should('have.value','Akhi@gmail.com')  // enetring emails

@@ -3,7 +3,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 });
 describe('Demo', () => {
     //  beforeEach(() =>{
-    it('site', () => {
+    it('site URL', () => {
 
         cy.visit('https://demo.automationtesting.in/Static.html')// visit URL
     })

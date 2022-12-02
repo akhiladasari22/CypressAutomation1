@@ -2,7 +2,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false;
   });
   describe('Demo', () => {
-    it('site', () => {
+    it('site URl', () => {
      //cy.visit('https://demo.automationtesting.in/FileUpload.html')// visit URL
     cy.visit('https://fineuploader.com/demos.html')
     cy.get('#fine-uploader-gallery > .qq-uploader-selector > .qq-upload-button-selector > input').click({force: true})
