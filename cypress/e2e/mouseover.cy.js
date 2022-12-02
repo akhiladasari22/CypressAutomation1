@@ -9,6 +9,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
 //for mouse over written command for trigger
         cy.contains("Login / Signup").trigger('mouseover')
       
-cy.get('#highlight-addons').trigger('mouseover')
+cy.get('#highlight-addons').trigger('mouseover')// hosuing and highlighing that field
 })
   })
