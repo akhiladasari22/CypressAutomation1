@@ -14,7 +14,9 @@ Cypress.on('uncaught:exception', (err, runnable) => {
       cy.get('#mat-option-131 > .mat-option-text').click()    
       //cy.contains('Select Associate').click().get('[id="mat-option-3271"]').click()
       cy.get('[name="ProjectId"]').click()
-      cy.get("#mat-option-2881>.mat-option-text").click()
+      cy.get('#mat-option-13 > .mat-option-text').click()
+  
     })
+
 
 })
