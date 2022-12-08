@@ -28,7 +28,7 @@ describe('Access Website', () => {
 cy.get('[placeholder="Salary"]').clear().type('200') //entering salary if existing 1st clearing them.
 cy.get('#department').clear().type('QA')//entering department if existing 1st clearing them.
     cy.get('[type="submit"]').click()// submitting the entered data
-
+// sorting validation yet to do 
 getTableData('.rt-table') 
   return cy.get('.rt-table')
     .then(modal => cy.wrap(modal).find('table > tbody > tr'))
